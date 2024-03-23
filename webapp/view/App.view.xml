@@ -1,6 +1,18 @@
 <mvc:View
+    controllerName="ui5.walkthrough.controller.App"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+>
+    <Button 
+        text="Say Hello"
+        press=".onShowHello"
+    ></Button>
+</mvc:View>
+
+<!-- ================ Step 4: XML Views =============-->
+<!-- <mvc:View
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc"
 >
 <Text text="Hello world Step4"></Text>
-</mvc:View>
+</mvc:View> -->
