@@ -28,5 +28,10 @@ sap.ui.define([
             oBingding.filter(aFilter);
 
         }
+        ,
+        onPress(){
+            const oRouter = this.getOwnerComponent().getRouter();
+            oRouter.navTo("detail");
+        }
 	});
 });
