@@ -7,6 +7,7 @@
     "start": "ui5 serve -o index.html",
     "start-mock": "ui5 serve -o test/mockServer.html",
     "unit-tests": "ui5 serve -o test/unit/unitTests.qunit.html",
+    "int-tests": "ui5 serve -o test/integration/opaTests.qunit.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
