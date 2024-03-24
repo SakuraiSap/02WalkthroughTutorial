@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "SAP SE",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "ui5-middleware-simpleproxy": "^3.2.14"
+  }
 }
