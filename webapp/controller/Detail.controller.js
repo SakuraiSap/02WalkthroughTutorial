@@ -16,6 +16,7 @@ sap.ui.define([
             oRouter.getRoute("detail").attachPatternMatched(this.onObjectMatched, this);
         },
         onObjectMatched(oEvent){
+            this.byId("rating").reset();
             this.getView().bindElement({
                 path:"/" + window.decodeURIComponent(oEvent.getParameter("arguments").invoicePath),
                 model: "invoice"
