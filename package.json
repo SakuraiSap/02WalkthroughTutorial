@@ -8,12 +8,14 @@
     "start-mock": "ui5 serve -o test/mockServer.html",
     "unit-tests": "ui5 serve -o test/unit/unitTests.qunit.html",
     "int-tests": "ui5 serve -o test/integration/opaTests.qunit.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "ui5 build --all --clean-dest",
+    "serve-dist": "ws --compress -d dist --open"
   },
   "keywords": [],
   "author": "SAP SE",
   "license": "ISC",
   "devDependencies": {
+    "local-web-server": "^5.3.1",
     "ui5-middleware-simpleproxy": "^3.2.14"
   }
 }
